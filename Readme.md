@@ -5,10 +5,15 @@ The aim is to visualize the logs of api-gateway recived by Cloudwatch.
 
 ### Aws Services Used
 1- Api-gateway
+
 2- Cloudwatch
+
 3- Kinesis Firhose
+
 4- S3
+
 5- Athena
+
 6- QuickSight
 
 ### Steps to Follow:
@@ -55,8 +60,13 @@ After creating this, Don't forget to create the workergroup in Athena as quicksi
 #### 5. QuickSight
 
 1- Signup on the QuickSight
+
 2- Make sure that Quicksight have access to Athena
+
 3- Then go to Analysis and from top right corner click on new analysis then click new dataset
+
 4- Select Athena from the options
+
 5- Add the workergroup
+
 6- Click on create datasource
